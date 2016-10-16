@@ -58,7 +58,7 @@ The following **known issues**:
 
 Here's a walkthrough of implemented user stories:
 
-![Video Walkthrough](path-to-your-GIF-file)
+![myRestaurant.gif](myRestaurant.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
