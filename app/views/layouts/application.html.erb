@@ -9,6 +9,28 @@
   </head>
 
   <body>
-    <%= yield %>
+    <nav class="navbar navbar-light bg-faded">
+    	<a class="navbar-brand" href="<%= root_path%>">SB-Retaurant</a>
+    	<ul class="nav navbar-nav">
+            <li class="nav-item <%= 'active' if current_page?(root_path) %>">
+                <%= link_to 'Home', root_path, class: 'nav-link' %>
+            </li>
+
+    		<li class="nav-item <%= 'active' if current_page?(menu_path) %>">
+    			<a class="nav-link" href="<%= menu_path%>"">Menu<span class="sr-only">(current)</span></a>
+    		</li>
+    		<li class="nav-item <%= 'active' if current_page?(contact_us_path) %>">
+    			<a class="nav-link" href="<%= contact_us_path%>"">Contact Us</a>
+    		</li>
+    	</ul>
+    	<form class="form-inline pull-xs-right">
+    		<input class="form-control" type="text" placeholder="Search">
+    		<button class="btn btn-outline-success" type="submit">Search</button>
+    	</form>
+    </nav>
+    <div class="container">
+    	<%= yield %>
+    </div>
+    
   </body>
 </html>
