@@ -1,6 +1,6 @@
 # CoderRestaurant Website
 
-**Coder Restaurant** is a Ruby on Rails restaurant website let users order foods.
+**MyRestaurant** is a Ruby on Rails restaurant website let users order foods.
 
 Submitted by: **Lam Do**
 
@@ -15,12 +15,12 @@ URL: **hhttps://nek-restaurant.herokuapp.com**
 * [x] User must be able to go two pages: Menu, and Contact Us.
 * [x] User can see the address and phone number on the contact us page.
 * [x] User can see a basic google map on the Contact Us page.
-* [ x] User can navigate to a menu page with four sections:
+* [x] User can navigate to a menu page with four sections:
   * [x] Breakfast
   * [x] Lunch
   * [x] Dinner
   * [x] Drinks
-* [] User should see at least 5 food items in each section.
+* [x] User should see at least 5 food items in each section.
 * [x] Each food item should have the following fields:
   * Name (Canh Chua)
   * Description (Delicious fish soup)
