@@ -12,6 +12,17 @@
 				<div class="card-header"><%= food_item.name%></div>
 		</div> 
 		<div class="card-block">
-			<%= image_tag food_item.image_url %>
+			<div class="row">
+				<div class="col-xs-12 col-md-8">
+					<%= image_tag food_item.image_url %>
+				</div>
+				<div class="col-xs-6 col-md-4">
+					<p><strong>Description:</strong> <%= food_item.descripion %></p>
+					<p><strong>Price:</strong> <%= food_item.price %> VND</p>
+				</div>
+
+			</div>
+			
+			
 		</div>
 	<% end %>
